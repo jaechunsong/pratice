@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title #{pageTitle} | #{siteName}
+        link(href="/your-path-to-fontawesome/css/fontawesome.css", rel="stylesheet")
+        link(href="/your-path-to-fontawesome/css/brands.css", rel="stylesheet")
+        link(href="/your-path-to-fontawesome/css/solid.css", rel="stylesheet")
+        script(src="https://kit.fontawesome.com/b6fa07810f.js")
+    body
+        img(src="../images/logo.png")
+        include ../partials/header
+        main
+            block content
+        include ../partials/footer
